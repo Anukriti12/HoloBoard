@@ -182,7 +182,7 @@ header.wrapper {
   background: -webkit-linear-gradient(45deg, #ff3a3a, #ff8c10);
 }
 header h1 {
-  background-image: url("/img/HandWritingBoard.png");
+  background-image: url("");
   background-size: contain;
   width: 160px;
   height: 20px;
@@ -192,7 +192,7 @@ header h1 {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   header h1 {
-    background-image: url("/img/HandWritingBoard.png");
+    background-image: url("");
     background-size: contain;
     width: 160px;
     height: 20px;

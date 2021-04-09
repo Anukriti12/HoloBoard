@@ -3,18 +3,14 @@ import express from 'express';
 import io from 'socket.io';
 import {createEngine} from 'express-react-views';
 import path from 'path';
-import https from 'https';
+import http from 'http';
 import fs from 'fs';
 
 const remoteIds = new Set();
 const app = express();
 
-const options = {
-    key: fs.readFileSync('/Users/aokayama/etc/https/orekey.pem'),
-    cert: fs.readFileSync('/Users/aokayama/etc/https/orecert.pem'),
-    passphrase: 'password'
-};
-const server = https.Server(options, app);
+
+const server = http.Server({}, app);
 const socket = io(server);
 socket.on('connection', client => {
     console.log('connection');

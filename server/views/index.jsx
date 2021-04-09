@@ -12,16 +12,16 @@ export default class Index extends React.Component {
                 <div className="l-wrapper">
                     <header className="wrapper">
                         <h1>
-                            <a href="/">HandWritingBoard</a>
+                            <a href="/">HoloBoard</a>
                         </h1>
                     </header>
                     <section className="wrapper">
                         <h1 className="circle"></h1>
-                        <h2>Mr.Ninja</h2>
+                        <h2>Your Classroom</h2>
                     </section>
                     <div className="main">
                         <dl className="form">
-                            <dt>Board Name</dt>
+                            <dt>Enter class code</dt>
                             <dd>
                                 <input type="text" id="js-boardname" />
                             </dd>
@@ -31,7 +31,7 @@ export default class Index extends React.Component {
                         </p>
                     </div>
                     <footer>
-                        Copyright (C) 2020 OKAYAMA FU-FU All Rights Reserved.
+                        Developed by Team Infersome
                     </footer>
                 </div>
             </Layout>

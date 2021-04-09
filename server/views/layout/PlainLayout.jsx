@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class NormalLayout extends React.Component {
     render() {
-        let title = 'HandWritingBoard';
+        let title = 'HoloBoard';
         if (this.props.properties.title) {
             title = `${title} ${this.props.properties.title}`;
         }
@@ -20,10 +20,10 @@ export default class NormalLayout extends React.Component {
                 <head>
                     <title>{title}</title>
                     <meta charSet="utf-8" />
-                    <meta name="description" content="HandWritingBoard" />
+                    <meta name="description" content="HoloBoard" />
                     <meta
                         name="keywords"
-                        content="HandWritingBoard,ホワイトボード,lesson,授業,学校,school,mtg,会議"
+                        content="HoloBoard,ホワイトボード,lesson,授業,学校,school,mtg,会議"
                     />
                     <meta
                         name="viewport"
